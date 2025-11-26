@@ -1,0 +1,19 @@
+name: AuthPlugin
+version: 1.0.0
+main: com.yourname.authplugin.Main
+api-version: "1.19"
+description: Advanced Auth System for Paper 1.19.4
+author: YourName
+commands:
+  login:
+    description: Login to your account
+    usage: /login <password>
+  register:
+    description: Register new account
+    usage: /register <password> <confirmPassword>
+  logout:
+    description: Logout from your account
+permissions:
+  authplugin.admin:
+    description: Admin permissions
+    default: op
