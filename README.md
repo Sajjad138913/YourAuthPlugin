@@ -1,0 +1,2 @@
+# YourAuthPlugin
+Minecraft Auth Plugin
